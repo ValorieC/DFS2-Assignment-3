@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    padding: 30px;
+  }
+  .circle {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: fixed;
+    top: -50px;
+    right: -50px;
+  }
+  
+  container {
+    display: flex;
+  }
+  
+  .column{
+    flex: 1;
+  }
+  
+  
+  p {
+    width: 75%;
+    line-height: 1.35;
+    padding: 10px;
+    text-indent: 1em;
+  /*   font-family: "Roboto", light 300; */
+    column-count: 2;
+    column-gap: 100px;
+  }
+  
+  p {
+    font-feature-settings: "kern" 2, "liga" 1,
+  }
